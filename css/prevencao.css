@@ -1,0 +1,48 @@
+.titulo{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 6.9%;
+    margin-right: 39%;
+    padding-top: 3%;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    font-size: 30px;
+}
+hr{
+   margin-top: 0%;
+   margin-right: 43.3%;
+   margin-left: 9%;
+   border: 0.2px solid rgba(233, 233, 233, 0.514);
+}
+.bixa{
+   margin-top: 0%;
+   margin-right: 42.9%;
+   margin-left: 9%;
+   border: 0.2px solid rgba(233, 233, 233, 0.514); 
+}
+.texto{ 
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 39%;
+    text-align: justify;
+}
+.lista{  
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 8%;
+    margin-right: 39%;
+}
+.mascara{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 39%;
+    text-align: justify;
+}

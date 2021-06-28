@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #323232;
+    border: none;
+}
+body{
+    padding-top: 5vh; /* view height -> 5% da tela */
+    background-image: url(../img/c.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input, label{
+    display: block;
+    outline: none;
+    width: 100%;
+}
+a{
+    color: rgb(255, 89, 89);
+    align-items: right;
+}
+p{
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+}
+/* form */
+#main-container{
+    width: 400px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;    
+    padding: 20px;
+    padding-bottom: 2%;
+    margin-top: 10%;
+    border: 3px solid rgb(233, 229, 229);
+}
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+} 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 50%;
+}
+.full-box {
+    flex: 1 1 75%;
+    position: relative;
+}
+#datas{
+    padding-bottom: 1%;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    border-bottom: 2px solid #E60084;
+    padding: 8px;
+    font-size: .9rem;
+    margin-bottom: 20px;
+    
+} 
+input:focus{
+    border-color: rgb(255, 89, 89);
+} 
+button{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-right: 42%;
+    padding-left: 42%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #E60084;
+    color: white;
+    font-size: .9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+} 
+button:hover{
+    background: #bd006b;
+}
+#agreement{
+    margin-right: 5px;
+}
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+.sucesso{
+    color: rgb(7, 97, 7);
+    padding: 0.5%;
+    text-align: center;
+}
+.fracasso{
+    color: red;
+    padding: 0.5%;
+    text-align: center;
+}
+.negado{
+    font-weight: bold;
+    font-size: .8rem;
+    background: #ff4d4d;
+    margin-top: 2%;
+    padding: 1%;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+}
+.saiu{
+    font-weight: bold;
+    font-size: .8rem;
+    background: rgb(58, 143, 255);
+    margin-top: 2%;
+    padding: 1%;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+}
+.entrou{
+    font-size: bold;
+    font-size: .8rem;
+    background: rgb(129, 172, 51);
+    margin-top: 2%;
+    padding: 1.1%;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+}
+.fracassou{
+    font-size: bold;
+    font-size: .8rem;
+    background: #ff5555;
+    margin-top: 2%;
+    padding: 1%;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+}

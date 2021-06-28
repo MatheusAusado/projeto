@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #323232;
+    border: none;
+}
+body{
+    padding-top: 5vh; /* view height -> 5% da tela */
+    opacity: 100%;
+    background: #450c5e;
+}
+input, label{
+    display: block;
+    outline: none;
+    width: 100%;
+}
+a{
+    color: rgb(255, 89, 89);
+}
+/* form */
+#main-container{
+    width: 533px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 3%;
+    border: 3px solid#290538;;
+}
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+} 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box {
+    flex: 1 1 75%;
+    position: relative;
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing{
+    margin-right: 2.5%;
+}
+#datas{
+    padding-bottom: 1%;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    border-bottom: 2px solid #E60084;
+    padding: 8px;
+    font-size: .9rem;
+    margin-bottom: 15px;
+} 
+input:focus{
+    border-color: rgb(255, 89, 89);
+} 
+button{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 35%;
+    padding-left: 36%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #E60084;
+    color: white;
+    font-size: .9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+} 
+button:hover{
+    background: #bd006b;
+}
+#agreement{
+    margin-right: 5px;
+}
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+.sucesso{
+    color: #fff;
+    background-color: rgb(129, 255, 129); 
+    margin-top: 2%;
+    padding: 0.8%;
+    text-align: center;
+    border-radius: 15px;
+}
+.fracasso{
+    color: #fff;
+    background-color: rgb(255, 107, 107);
+    margin-top: 3%;
+    padding: 0.8%;
+    text-align: center;
+    border-radius: 15px;
+}

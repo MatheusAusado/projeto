@@ -1,0 +1,37 @@
+.titulo{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 6.9%;
+    margin-right: 39%;
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(196, 71, 71);
+    background-color: rgb(241, 214, 214);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 167, 167)    ;
+}
+.texto{
+    padding-top: 0%;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 6.9%;
+    margin-right: 39%;
+    text-align: justify;
+}
+.lista{  
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 8%;
+    margin-right: 39%;
+}
+.q{
+    color: red;
+}

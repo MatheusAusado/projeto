@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bagulho{
+    padding-right: 5px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.center{
+    margin-left: 18%;
+    margin-top: 3%;
+}

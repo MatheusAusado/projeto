@@ -1,0 +1,123 @@
+.flex{
+  display: flex;
+}
+h1{
+  margin-left: 8.4%;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ccc;
+}
+h2{
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 2%;
+}
+.titulo{
+  margin-left: 38%;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ccc;
+}
+/*hr*/
+hr{
+  margin-right: 78%;
+  margin-left: 8%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+/*Formulário*/
+#main-container{
+  width: 566px;
+  margin-left: 7.5%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 0.5%;
+}
+#main-container2{
+  width: 500px;
+  margin-left: 7%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 0.5%;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.full-box {
+  flex: 1 1 75%;
+  position: relative;
+}
+/*Recado*/
+.half-box{
+  margin-bottom: 0%;
+}
+.recado{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: rgb(61, 60, 60);
+}
+.ler{
+  font-size: 0.6rem;
+  color: red;
+}
+/*Select*/
+#select{
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+}
+#select2{
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+/*butão*/
+button:focus{
+  border-color: rgb(255, 89, 89);
+} 
+button{
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-right: 40%;
+  padding-left: 40%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #E60084;
+  color: white;
+  font-size: .9rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+} 
+button:hover{
+  background: #bd006b;
+}
+/*Voltar*/
+.voltar{
+  color: rgb(255, 89, 89);
+  text-decoration:underline;
+  font-size: 1rem;
+  margin-top: 0%;
+}
+.voltar:hover{
+  color:rgb(214, 60, 60);
+  text-decoration: underline;
+}
+label{
+  font-weight: bold;
+  font-size: .8rem;
+}
